@@ -34,7 +34,7 @@ MAX_RESULTS = 20  # Maximum number of results to return per API call
 MAX_TRAVEL_TIME_SECONDS = 3600  # 1 hour in seconds
 
 # API Key - Using Streamlit secrets
-API_KEY = st.secrets["google_api_key"]
+API_KEY = st.secrets["api_key"]
 
 # Utility functions
 def format_address(address_components):
