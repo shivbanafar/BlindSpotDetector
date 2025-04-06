@@ -15,13 +15,13 @@ import polyline
 
 # Set page configuration
 st.set_page_config(
-    page_title="Hospital Route Finder - India",
+    page_title="Hospital Blind Spot Detector",
     page_icon="🏥",
     layout="wide"
 )
 
 # Application title and description
-st.title("🏥 Hospital Route Finder - India")
+st.title("🏥 Hospital Blind Spot Detector ")
 st.markdown("""
 This application helps find the nearest hospital within one hour of travel time, considering real-time traffic conditions and speed limits.
 Simply select a location on the map or enter an address, and the app will search for hospitals and calculate routes.
